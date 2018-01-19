@@ -1,0 +1,34 @@
+Login/Password
+    -log-in
+    -verification
+    -database mgmt
+    -username = email
+    -lockout
+    -logs
+Users
+    -user type
+        -normal end user
+            "location of shelter checked in at"
+        -Shelter Employee->elevated
+            -linked to specific shelter
+        -admin-> "root'
+    -"locked"
+    -persistence
+Shelter-handling
+    -unique key
+    -names, capacity
+    -restrictions-> age, gender, families, veterans only
+    -location
+    -notes
+    -contact information aka Phone #
+Search
+    -Vacancies
+    -Restrictions
+    -Location/Proximity
+GUI
+    -Input Fields
+        -login and registration
+    -Search gui
+    -Google maps display [api will help]
+    - ...
+    
